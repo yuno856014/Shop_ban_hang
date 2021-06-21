@@ -1,0 +1,21 @@
+{
+  "Bill": [
+    [
+      {
+        "NameProduct": "oppo",
+        "Price": 133800000,
+        "Amount": 3,
+        "TotalMoney": 401400000
+      }
+    ],
+    [
+      {
+        "NameProduct": "hp",
+        "Price": 31000000,
+        "Amount": 4,
+        "TotalMoney": 124000000
+      }
+    ]
+  ],
+  "BillProduct": 525400000
+}
