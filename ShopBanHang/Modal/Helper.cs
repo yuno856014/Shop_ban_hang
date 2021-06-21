@@ -129,6 +129,7 @@ namespace ShopBanHang
                         } while (true);
                     case 0:
                         WriteBill();
+                        Console.WriteLine("Thanks!");
                         break;
                 }
             } while (choice != 0);
@@ -182,7 +183,7 @@ namespace ShopBanHang
                                 {
                                     NameProduct = name,
                                     Amount = sl,
-                                    Price = result.Phone[i].TotalMoney
+                                    Price = result.Phone[i].Price
                                 });
                             }
                         }
@@ -299,7 +300,7 @@ namespace ShopBanHang
                                 {
                                     NameProduct = name,
                                     Amount = sl,
-                                    Price = result.LapTop[i].TotalMoney
+                                    Price = result.LapTop[i].Price
                                 });
                             }
                         }
